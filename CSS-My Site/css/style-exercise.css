@@ -1,0 +1,20 @@
+p {
+    background-color: red;
+    width: 100px;
+    display: inline-blovk;
+    /* display: inline; */
+    /* As paragraphgs by default are block boxes(whole line) 
+    (vs inline-takes up what it needs) -we can make it in-line by using display property-
+    but in-line can't chnage width therfore use in-line block*/
+}
+
+span {
+    background-color: blue;
+    width: 100px;
+}
+
+.second-p {
+    /* display: none; */
+    /* Both of these properties do the same thing */
+    visibility: hidden;
+}

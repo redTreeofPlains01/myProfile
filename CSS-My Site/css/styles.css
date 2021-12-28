@@ -1,26 +1,70 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
 }
 
 h1 {
-    margin-top: 0;
+    margin: 50px auto 0 auto;
+    width: 15%;
+    font-size: 5.625rem;
+    /* 100% = 16px =1em  90px= 562.5 = 5.62em , em and % is dyanamic*/
+    /* anything not a full block element i.e in-line or a width is set,
+     text-align will not work--tf->need to use marigin auto*/
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #35589A;
+}
+
+h2 {
+    font-family: 'Comfortaa', Futura, sans-serif;
+    font-size: 2.5rem;
+    color: #EC255A;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Comfortaa', Futura, sans-serif;
+    Color: #11999E;
 }
 
 .top-container {
     background-color: #B1D0E0;
-    padding: 20px;
+    padding-top: 100px;
     border-color: black;
+    position: relative;
 }
 
-.middle-container {
-    width: 200px;
-    height: 200px;
-    background-color: red;
+.middle-container {}
+
+.bottom-container {}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 70px;
 }
 
-.bottom-container {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+.bottom-cloud {
+    position: absolute;
+    left: 315px;
+    bottom: 440px;
+}
+
+.code-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.csharp-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.cursive {
+    color: seagreen;
 }

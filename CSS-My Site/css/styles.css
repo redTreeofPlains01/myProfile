@@ -28,6 +28,9 @@ h3 {
     Color: #11999E;
 }
 
+
+/* **************************************************** */
+
 .top-container {
     background-color: #B1D0E0;
     padding-top: 100px;
@@ -37,12 +40,41 @@ h3 {
 
 .middle-container {}
 
-.bottom-container {}
+.bottom-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 70px;
+    background-color: #B1D0E0;
+}
 
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 70px;
+
+/* **************************************************** */
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
 }
 
 .bottom-cloud {
@@ -51,20 +83,67 @@ h3 {
     bottom: 440px;
 }
 
+.contact-me {
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.contact-descrp {
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
+
 .code-icon {
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 300px;
+    margin-right: 25px;
+    width: 28%;
+    /* !!this will float the picture to the left and writing will go to the right */
+    float: left;
 }
+
+
+/* !!this is the opposite of float */
+
+
+/* .code-skill-descr {
+    clear: left;
+} */
 
 .csharp-icon {
     display: block;
-    margin-left: auto;
+    margin-left: 25px;
     margin-right: auto;
-    width: 250px;
+    width: 28%;
+    float: right;
 }
+
+
+/* .csharp-description {
+    clear: right; 
+} */
 
 .cursive {
     color: seagreen;
+}
+
+.footer-link {
+    Color: #11999E;
+}
+
+.skill-row {
+    /* display: inline-block; */
+    margin: 100px auto 150px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 70px;
 }

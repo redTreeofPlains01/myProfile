@@ -1,4 +1,5 @@
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
@@ -21,11 +22,17 @@ h2 {
     font-size: 2.5rem;
     color: #EC255A;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
     font-family: 'Comfortaa', Futura, sans-serif;
     Color: #11999E;
+}
+
+p {
+    line-height: 2;
+    /* !! this spreads the writing */
 }
 
 
@@ -38,7 +45,9 @@ h3 {
     position: relative;
 }
 
-.middle-container {}
+.middle-container {
+    margin: 100px 0;
+}
 
 .bottom-container {
     padding-top: 60px;
@@ -79,7 +88,7 @@ h3 {
 
 .bottom-cloud {
     position: absolute;
-    left: 315px;
+    left: 200px;
     bottom: 440px;
 }
 
@@ -133,6 +142,16 @@ h3 {
 
 .footer-link {
     Color: #11999E;
+}
+
+.intro {
+    width: 30%;
+    margin: auto
+    /* !! important as the intro is left aligned- use margin auto for when this happens*/
+}
+
+.profilePic {
+    width: 200px;
 }
 
 .skill-row {

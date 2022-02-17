@@ -1,0 +1,15 @@
+
+body{
+    background-color: rgb(225, 250, 248);
+}
+hr{
+    border-style: none ;
+    border-top-style: dotted ;
+    width: 20%;
+    border-color: aliceblue;
+    border-width: 5px;
+}
+
+h1,h3{
+    color: #66bfbf;
+}
